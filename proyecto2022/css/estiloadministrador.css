@@ -1,0 +1,118 @@
+@font-face {
+
+ font-family: 'fontprueba';
+ src: url('../css/Raleway-VariableFont_wght.ttf');
+ 
+}
+
+body {
+   margin: 0;
+   padding: 0;
+
+   font-family: 'fontprueba';
+
+}
+
+
+#barrasuperior {
+   display: block;
+   width: -100%;
+   height: 10vh;
+background: #2ea8ff;
+text-align: center;
+padding: 0.8vh;
+font-size: 2.4em;
+color: white;
+}
+
+.sidemenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 70px;
+  /*width: 300px;*/
+  list-style-type: none;
+  background: #f32c52;
+  overflow: hidden;
+  transition: width .3s;
+}
+
+.sidemenu:hover {
+width: 300px;
+}
+
+.sidemenu li {
+  width: 190px;
+
+  font-size: 1rem;
+  margin: 8px 30px 0 90px;
+
+  text-align: center;
+
+}
+
+.sidemenu li a {
+  display: block;
+  position: relative;
+    left: -7%;
+    top: 65px;
+
+  font-size: .9rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 10%;
+  color: #FFF;
+  height: 60px;
+   /*background: #2bb7d7;*/
+}
+
+.sidemenu li a:hover,
+.sidemenu li:first-child a {
+  background: #2bb7d7;
+  border: none;
+  transition: 0.5s;
+   border-radius: 12px;
+  display: block;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+
+#iconomenu {
+
+    position: fixed;
+    left: 1%;
+    top: 1vh;
+    z-index: 1;
+}
+
+#iconouser{
+width: 98%;
+    height: 20vh;
+    position: relative;
+top: 7vh;
+    left: 5%;
+}
+
+
+#nombredeusuario{
+  display: block;
+  position: relative;
+top: 7vh;
+    left: -7%;
+}
+
+/*zona registro*/
+
+
+#zonaregistro {
+    width: 70%;
+    position: fixed;
+    left: 18%;
+    top: 12%;
+}
+
+
+
