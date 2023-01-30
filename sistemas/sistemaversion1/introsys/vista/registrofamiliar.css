@@ -1,0 +1,151 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	height: 100vh;
+	background-color: #EFEFEFFF;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 250px;
+}
+
+p{
+	padding: 4px 0;
+}
+
+.articulo{
+	padding: 15px 15px;
+	max-width: 850px;
+	margin: 20px auto;
+	background: white;
+	border-style: solid;
+	border-color: #DBDBDBFF;
+	border-width: 1px;	
+	border-radius: 5px;
+}
+
+.articulo .perfil img{
+	margin: 10px auto;
+    display: flex;
+    height: 150px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius: 50%;
+}
+
+.lineas{
+	margin: 30px auto 20px;
+	width: 560px;
+}
+
+.seccion-1{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-2, .seccion-3, .seccion-4, .seccion-5, .seccion-6, .seccion-8, .seccion-9{
+	display: flex;
+    margin: 10px auto;
+    width: 560px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.seccion-7{
+	width: 560px;
+	margin: auto;
+}
+
+.seccion-2 #cece{
+	padding: 7px;
+	width: 270px;
+}
+
+.seccion-2 > .inputcedula{
+	width: 270px;
+}
+
+.seccion-3 input{
+	padding: 7px;
+	width: 270px;	
+}
+
+.seccion-4 input{
+	padding: 7px;
+	width: 270px;	
+}
+
+.seccion-5 select{
+	padding: 7px;
+	width: 270px;	
+}
+
+.seccion-6 select{
+	padding: 7px;
+	width: 270px;	
+}
+
+.seccion-7 input{
+	padding: 7px;
+	width: 100%;
+}
+
+.seccion-8 input{
+	padding: 7px;
+	width: 270px;
+}
+.seccion-9 input{
+    padding: 7px;
+    margin: 0 3px;
+    width: 180px;
+}
+
+.seccion-10{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.seccion-10 button{
+	width: 100px;
+	padding: 7px;
+	margin: 7px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.seccion-10 #btn-cancelar{
+	border-style: none;
+	background-color: #F60800F3;
+	border-radius: 3px;
+	color: white;
+}
+
+.seccion-10 #btn-cancelar:hover{
+	cursor: pointer;
+	transform: scale(1.01);
+	background-color: #F6080FC6;
+}
+
+.seccion-10 #btn-guardar{
+	border-style: none;
+	background-color: #04EE15EE;
+	border-radius: 3px;
+	color: white;
+}
+
+.seccion-10 #btn-guardar:hover{
+	cursor: pointer;
+	transform: scale(1.01);
+	background-color: #04EE5EC9;
+}

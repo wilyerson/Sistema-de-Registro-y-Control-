@@ -1,0 +1,118 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	height: 100vh;
+	background-image: linear-gradient(
+					0deg, 
+					rgba(0,0,0,0.1), 
+					rgba(0,0,0,0.1)
+					), 
+					url("imgfondo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.container{
+	width: 100%;
+	height: 100%;
+}
+	
+/*TITULO*/
+.textoprincipal{
+	max-width: 60vh;
+	margin: 0px auto;
+	padding-top: 70px;
+	background-color: transparent;
+}
+
+.textoprincipal .titulosirce{
+	font-size: 50px;
+	text-align: center;
+}
+
+.textoprincipal .descripcion{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 40px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.textoprincipal hr{
+	background-color:#6DFFFFFF ;
+	color: #6DFFFFFF;
+	height: 4px;
+	border: none;
+}
+/*titulo*/
+
+/*FORMULARIO*/
+.formulario{
+	border-style: none none  groove none;
+	border-radius: 15px;
+	padding: 10px 10px 10px 10px;
+	max-width: 60vh;
+	margin: 0px auto;
+	border-color: #6DFFFFFF;
+}
+
+.formulario .seccionusuario input{
+	border-style: none none  groove none;
+	width: 100%;
+	border-radius: 7px;
+	height: 30px;
+	background: #E8E8E8FF;
+}
+
+.formulario .seccionpass input{
+	border-style: none none  groove none;
+	width: 100%;
+	border-radius: 7px;
+	height: 30px;
+	background: #E8E8E8FF;
+}
+
+.formulario .tituloinicio{
+	padding: 5px;
+	text-align: center;
+}
+
+.formulario .seccionusuario{
+	position:relative;
+	padding: 15px 50px 15px 50px; 
+}
+
+.formulario .seccionpass{
+	position:relative;
+	padding: 0px 50px 15px 50px;  
+}
+
+.formulario .seccionfinal{
+	position:relative;
+	padding: 0px 50px 15px 50px; 
+	text-align: center;
+}
+
+.seccionfinal input{
+	margin: 10px 5px;
+	width: 100px;
+	height: 25px;
+}
+.seccionfinal #reset{
+	background-color: #8CAFFFFF;
+	border-width: 1px;
+	border-radius: 5px;
+	font-size: 15px;	
+}
+.seccionfinal #submit{
+	background-color: #0EFF00FF;
+	border-width: 1px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+/*FORMULARIO*/

@@ -1,0 +1,152 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	height: 100vh;
+	background-color: #EFEFEFFF;
+	font-family: 'Poppins', sans-serif;
+}
+
+.headersuperior{
+	max-width: 900px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.logo_sistema a{
+	font-size: 25px;
+	text-decoration:none;
+	color: black;
+} 
+
+.menu_lista nav{
+	height: 100%;
+}
+
+.menu_lista nav > ul{
+	height: 100%;
+	display: flex;
+}
+
+nav ul li{
+	height: 100%;
+	list-style: none;
+	position: relative;
+}
+
+nav > ul > li > a{
+	width: 100%;
+	height: 100%;
+	display: flex; 
+	align-items: center;
+	padding: 14px 0px 14px 14px;
+	font-size: 16px;
+	transition: all 300ms ease;
+	text-decoration: none;
+	color: black;
+}
+
+nav > ul > li > a:hover{
+	transform: scale(1.1);
+	text-decoration-line: underline;
+}
+
+nav ul li ul{
+	width: 240px;
+	display: flex;
+	flex-direction: column;
+	background: white;
+	position: absolute;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	top: 60px;
+	left: 10px;
+	padding: 14px 14px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 10;
+	transition: all 300ms ease;
+}
+
+nav ul li:hover ul{
+	visibility: visible;
+	opacity: 1;
+	top: 40px;
+}
+
+nav ul li ul:before{
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	position: absolute;
+	top: -12px;
+	left: 20px;
+}
+
+nav ul li ul li a{
+	display: block;
+	margin-left: : 6px;
+	margin: 5px 0px 5px 0px;
+	transition: all 300ms ease;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+
+nav ul li ul li a:hover{	
+	transform: scale(1.1);	
+	text-decoration-line: underline;
+}
+
+.articulo{
+	padding: 15px 15px;
+	max-width: 850px;
+	margin: 20px auto;
+	background: white;
+	border-style: solid;
+	border-color: #DBDBDBFF;
+	border-width: 1px;	
+	border-radius: 5px;
+	font-size: 13px;
+}
+
+.seccion{
+	padding: 10px;
+}
+
+.seccion p{
+	font-size: 15px;
+	margin: 5px 0px;
+}
+
+.seccion input{
+	width: 180px;
+	padding: 7px;
+}
+
+.seccion button, select{
+	padding: 7px;
+}
+
+.btn-nuevotrabajador{
+	background-color: #1CE21CFF;
+    border-width: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.seccion1{
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-nuevotrabajador a{
+	text-decoration: none;
+	color: black;
+}
