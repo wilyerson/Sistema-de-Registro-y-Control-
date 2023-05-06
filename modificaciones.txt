@@ -4,11 +4,11 @@ modificaciones
 
 -falta estatus en el historico, es si esta activo o inanctivo
 
--mostra edad en el mismo campo de registro de fecha
+-mostra edad en el mismo campo de registro de fecha--------------------------listo--------------------------------
 
 -estar tipo de tratabajador, cargo, poner tablas precarga, en el registro de trabajador
 
--campo mas largo en nombre
+-campo mas largo en nombre--------------------------listo--------------------------------
 
 -poner añadir institucion en un modal al lado del input de institucion
 
@@ -36,7 +36,7 @@ modificaciones
 		consulta; consular y descargar no puede editar nada
 
 
--poner boton de limpiar todo el formulario y un botno que dija guarda
+-poner boton de limpiar todo el formulario y un botno que dija guarda--------------------------listo--------------------------------
 
 -nuevo:  poner documentos en familias segun el parentesco
 en los conyuges poner acta de matrimonio y cedula y partida de nacimiento
