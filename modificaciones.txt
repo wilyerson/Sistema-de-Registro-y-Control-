@@ -1,8 +1,8 @@
 modificaciones
 
--elminar que sea obligatorio fecha de culminacion en el primer registro que se pueda modificar luego
+-elminar que sea obligatorio fecha de culminacion en el primer registro que se pueda modificar luego------------ listo--------
 
--falta estatus en el historico, es si esta activo o inanctivo
+-falta estatus en el historico, es si esta activo o inanctivo--------------------------listo--------------------------------
 
 -mostra edad en el mismo campo de registro de fecha--------------------------listo--------------------------------
 
@@ -28,7 +28,7 @@ modificaciones
 
 -conyuge, hijo/hija y padre/madre y en parentesto
 
--estado civil, soltero, casado, viudo 
+-estado civil, soltero, casado, viudo --------------------------listo--------------------------------
 
 
 -roles:  administrador: todo,
@@ -49,7 +49,7 @@ hijos cedula si tiene y partida de naciemiento y los que no tiene cedula partida
 
 -quienes pueder ser los usuarios del sistema solo que trabajan en el institucion, direcion peronal
 
--poner nueva pantalla de inicio, que no sea la consulta
+-poner nueva pantalla de inicio, que no sea la consulta--------------------------listo--------------------------------
 
 -que los nombres de usuarios no sean largo, que sean cortos de 8 a 12 letras, permitir simbolos
 
