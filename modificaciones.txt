@@ -10,7 +10,7 @@ modificaciones
 
 -campo mas largo en nombre--------------------------listo--------------------------------
 
--poner añadir institucion en un modal al lado del input de institucion
+-poner añadir institucion en un modal al lado del input de institucion--------------------------listo--------------------------------
 
 -en modal de histrorico se añade tipo de trabajador activos: tipos de trabajador: gobernador, alto nivel y directivos, empleados, empleados salud, docentes, obreros fijo, obreros salud, obreros construccion, comisarios , rotativos o eventuales 
 
