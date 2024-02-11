@@ -1,0 +1,24 @@
+En JavaScript, puedes obtener el valor de un parámetro de la URL utilizando el objeto URLSearchParams. Aquí te dejo un ejemplo de cómo podrías hacerlo:
+
+JavaScript
+
+let params = new URLSearchParams(window.location.search);
+let id = params.get('id');
+AI-generated code. Review and use carefully. More info on FAQ.
+En este código, window.location.search devuelve la parte de la cadena de la URL que sigue al símbolo ?, que incluye los parámetros de la URL. Luego, params.get('id') obtiene el valor del parámetro ‘id’. Este valor se almacena en la variable id.
+
+Espero que esto te ayude. ¿Hay algo más que quieras saber?
+
+
+
+
+
+
+en php 
+Sí, esa línea de código en PHP está capturando un parámetro de la URL llamado ‘id’.
+
+En PHP, $_GET es una variable superglobal que se utiliza para recoger los datos del formulario enviados por el método GET. Esto significa que la información se codifica y se envía a través de la URL.
+
+Si tienes una URL como esta: http://www.tusitio.com/index.php?id=123, entonces $_GET['id'] capturará el valor 123. En tu caso, ese valor se está almacenando en la variable $id.
+
+Así es como funciona esa línea de código. ¿Hay algo más con lo que pueda ayudarte?
