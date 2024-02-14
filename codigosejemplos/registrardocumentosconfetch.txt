@@ -1,0 +1,31 @@
+/////////////////------------------javascript 
+let input = document.querySelector('input[type="file"]');
+
+let data = new FormData();
+data.append('imagen', input.files[0]);
+
+fetch('ruta_al_archivo_php', {
+  method: 'POST',
+  body: data
+})
+.then(response => response.text())
+.then(resultado => {
+  console.log(resultado);
+})
+.catch(error => console.error(error));
+
+//////-------------php 
+<?php
+if(isset($_FILES['imagen'])){
+    $nombre_imagen = $_FILES['imagen']['name'];
+    $temporal_imagen = $_FILES['imagen']['tmp_name'];
+    $carpeta = "tu_carpeta_de_destino/";
+
+    // Mueve la imagen a la carpeta de destino
+    if(move_uploaded_file($temporal_imagen, $carpeta.$nombre_imagen)){
+        echo "La imagen se ha subido correctamente";
+    } else {
+        echo "Hubo un error al subir la imagen";
+    }
+}
+?>
