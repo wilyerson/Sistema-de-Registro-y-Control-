@@ -1,0 +1,1 @@
+crear la columna RegPartidaNacimientoFami	despue de TallaCalzado y antes de TipoPersona
