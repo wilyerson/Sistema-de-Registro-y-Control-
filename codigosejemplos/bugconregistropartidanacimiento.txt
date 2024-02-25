@@ -1,0 +1,9 @@
+El error que estás viendo se debe a que estás intentando insertar un valor duplicado en la columna ‘CedulaPersona’, que es una clave primaria y debe ser única. En este caso, el valor duplicado es NULL o una cadena vacía.
+
+Aunque has configurado ‘CedulaPersona’ para aceptar valores NULL, parece que también tienes una restricción de unicidad en esa columna, lo que significa que no puedes tener más de una fila con el mismo valor en ‘CedulaPersona’. Cuando intentas insertar NULL o una cadena vacía por segunda vez, obtienes un error de violación de integridad.
+
+Para solucionar este problema, puedes hacer una de las siguientes cosas:
+
+Asegúrate de que cada valor que insertas en ‘CedulaPersona’ sea único. Si $cedulafamiliar puede ser NULL o una cadena vacía, necesitas implementar una lógica en tu código para manejar estos casos y asegurarte de que no intentas insertar un valor duplicado.
+Si ‘CedulaPersona’ no necesita ser única, puedes eliminar la restricción de unicidad de esa columna. Sin embargo, ten en cuenta que esto podría tener implicaciones en otras partes de tu código que asuman que ‘CedulaPersona’ es única.
+Espero que esto te ayude a resolver el problema. Si tienes más preguntas o necesitas más ayuda, no dudes en preguntar. ¡Estoy aquí para ayudarte! 
